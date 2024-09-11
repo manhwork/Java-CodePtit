@@ -1,4 +1,4 @@
-package com.mycompany.helloworld.Javamang;
+package javaMang;
 
 import java.util.*;
 
