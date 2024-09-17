@@ -19,16 +19,17 @@ public class hieu_so_nguyen_lon_1 {
     public static void main(String[] args) {
         int t = Integer.parseInt(sc.nextLine());
         while (t-- > 0) {
-            BigInteger a = new BigInteger(sc.nextLine());
-            BigInteger b = new BigInteger(sc.nextLine());
+            BigInteger a = new BigInteger(sc.next());
+            BigInteger b = new BigInteger(sc.next());
             BigInteger c = a.subtract(b).abs();
             int maxLength = max(a.toString().length(), b.toString().length());
             int cLength = c.toString().length();
-            StringBuilder res = new StringBuilder(c.toString());
+            String res;
+            res = c.toString();
             while (res.length() < maxLength) {
-                res.insert(0, '0');
+                res = '0' + res;
             }
-            System.out.println(res.toString());
+            System.out.println(res);
         }
     }
 }
