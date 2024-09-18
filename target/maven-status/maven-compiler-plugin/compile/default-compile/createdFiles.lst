@@ -1,4 +1,5 @@
 xauKiTu\danh_dau_chu_cai.class
+docFilevanBan\so_khac_nhau_trong_file_1.class
 javaapplication3\javaCoBan\soNguyenTo.class
 com\mycompany\java_ptit\javaMang\giao_cua_hai_day_so.class
 xauKiTu\hieu_so_nguyen_lon_2.class
@@ -9,7 +10,9 @@ com\mycompany\java_ptit\javaMang\hop_cua_hai_day_so.class
 xauKiTu\dao_tu.class
 xauKiTu\so_dep_1.class
 xauKiTu\so_uu_the.class
+docFilevanBan\doc_file_van_ban.class
 xauKiTu\dien_thoai_cuc_gach.class
+xauKiTu\tach_doi_va_tinh_tong.class
 xauKiTu\uoc_chung_lon_nhat_cua_so_nguyen_lon.class
 xauKiTu\xau_doi_xung.class
 xauKiTu\xau_khac_nhau_dai_nhat.class
@@ -19,9 +22,14 @@ com\mycompany\java_ptit\javaMang\J03005_chuan_hoa_xau_ho_ten_2.class
 javaCoBan\boi_so_chung_uoc_so_chung.class
 xauKiTu\bien_so_dep.class
 com\mycompany\java_ptit\javacoban\xau_nhi_phan.class
+docFilevanBan\chuan_hoa_xau_ho_ten.class
+docFilevanBan\so_khac_nhau_trong_file_2.class
 javaCoBan\tong_giai_thua.class
+docFilevanBan\tinh_tong.class
 xauKiTu\rut_gon_xau_ki_tu.class
+docFilevanBan\danh_sach_sinh_vien_trong_file_2.class
 com\mycompany\java_ptit\javaMang\so_xa_cach.class
+docFilevanBan\liet_ke_tu_khac_nhau.class
 com\mycompany\java_ptit\javaMang\hop_cua_hai_day_so_1.class
 javaCoBan\tong_uoc_so_1.class
 javaMang\J02021_liet_ke_to_hop_2.class
@@ -61,6 +69,7 @@ javaapplication3\javaCoBan\tinhSoFibonaci.class
 xauKiTu\chia_het.class
 xauKiTu\boi_chung_nho_nhat.class
 javaCoBan\uoc_so_nguyen_to_lon_nhat.class
+docFilevanBan\hello_file.class
 javaCoBan\so_lien_ke.class
 com\mycompany\java_ptit\javaMang\J03006_so_dep_1.class
 com\mycompany\java_ptit\javaMang\in_ma_tran.class

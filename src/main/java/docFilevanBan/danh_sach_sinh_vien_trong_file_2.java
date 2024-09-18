@@ -1,0 +1,15 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
+package docFilevanBan;
+
+/**
+ *
+ * @author MTQV
+ */
+
+
+public class danh_sach_sinh_vien_trong_file_2 {
+    
+}
