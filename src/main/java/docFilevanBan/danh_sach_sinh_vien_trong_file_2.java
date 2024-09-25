@@ -2,12 +2,14 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package xauKiTu;
+package docFilevanBan;
 
 /**
  *
- * @author admin
+ * @author MTQV
  */
-class Stirng {
+
+
+public class danh_sach_sinh_vien_trong_file_2 {
     
 }
