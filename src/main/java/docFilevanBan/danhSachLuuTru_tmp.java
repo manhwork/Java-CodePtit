@@ -14,46 +14,47 @@ import java.util.Scanner;
 
 /**
  *
- * @author admin
+ * @author MTQV
  */
-class khachsan {
-
+class khach1 {
+    
     String ma, name, phong, den, di;
     static int cnt = 1;
     Long lt;
-
-    public khachsan(String name, String phong, String den, String di) throws ParseException {
+    
+    public khach1(String name, String phong, String den, String di) throws ParseException {
+        ma = String.format("KH%02d", cnt++);
         this.name = name;
         this.phong = phong;
+        SimpleDateFormat fdate = new SimpleDateFormat("dd/MM/yyyy");
+        Date denDate = fdate.parse(den);
+        Date diDate = fdate.parse(di);
+        lt = (diDate.getTime() - denDate.getTime()) / (1000 * 60 * 60 * 24);
         this.den = den;
         this.di = di;
-        ma = "KH" + String.format("%02d", cnt++);
-        SimpleDateFormat formatDate = new SimpleDateFormat("dd/mm/yyyy");
-        lt = (formatDate.parse(di).getTime() - formatDate.parse(den).getTime()) / (1000 * 60 * 60 * 24);
-//        convert second to day
     }
-
+    
     @Override
     public String toString() {
         return String.format("%s %s %s %d", ma, name, phong, lt);
     }
-
+    
 }
 
-public class danhSachLuuTru {
-
+public class danhSachLuuTru_tmp {
+    
     public static void main(String[] args) throws ParseException, FileNotFoundException {
 //        Scanner sc = new Scanner(System.in);
         Scanner sc = new Scanner(new File("KHACH.in"));
         int n = Integer.parseInt(sc.nextLine());
-        khachsan[] p = new khachsan[n];
+        khach1[] p = new khach1[n];
         for (int i = 0; i < n; i++) {
-            p[i] = new khachsan(sc.nextLine(), sc.nextLine(), sc.nextLine(), sc.nextLine());
+            p[i] = new khach1(sc.nextLine(), sc.nextLine(), sc.nextLine(), sc.nextLine());
         }
         Arrays.sort(p, (o1, o2) -> {
             return o2.lt.compareTo(o1.lt);
         });
-        for (khachsan x : p) {
+        for (khach1 x : p) {
             System.out.println(x);
         }
     }
@@ -62,9 +63,9 @@ public class danhSachLuuTru {
 //2
 //Nguyen Van Hoang
 //55B1
-//01/01/2021
-//05/01/2021
+//01/1/2021
+//05/1/2021
 //Nguyen Trung Dung
 //04C6
-//01/01/2021
-//10/01/2021
+//01/1/2021
+//10/1/2021
